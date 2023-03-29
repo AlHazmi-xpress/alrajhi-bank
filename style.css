@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+
+body {
+  font-size: 19px;
+  text-align: center;
+  
+  background: #f8f7fc;
+  
+}
+
+.q {
+  text-align: center;
+  justify-content: center;
+
+
+
+  
+  }
+
+input {
+  border-radius: 20px;
+  padding: 2px;
+  color: slategray;
+  margin: 5px;
+  font-size: 19px;
+  background: white;
+  border: 1px solid silver;
+  font-family: "cairo";
+  
+}
+
+button {
+  background: blue;
+  
+  border: 1px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  padding: 0px 100px 0px 100px;
+margin-block : 35px
+}
+.ra {
+  margin: 8px;
+  border-radius: 20px;
+  background: white;
+box-shadow: 0px 5px 15px rgba(0, 0, 0, .15);}
+
+::placeholder  {
+
+  
+  color: silver;
+font-size: 16px;
+text-align: right;
+padding-block: 5px;
+margin: 5px;
+font-family: "tajawal"
+}
+button:hover {
+  background: mediumblue;
+  animation-duration: 3s
+}

